@@ -43,7 +43,7 @@ function sorting(array) {
 let testArray = [77, 2, 9, 3, 27];
 console.log(sorting(testArray));
 
-//O(log N)
+//N x log N complexity
 
 function mergeSort(array) {
   if (array.length <= 1) {
